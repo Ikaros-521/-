@@ -1,0 +1,33 @@
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	overflow: auto;
+	background-attachment:fixed
+}
+
+#content {
+	padding-top: 30%;
+	text-align: center;
+}
+
+#info {
+	width: 20%;
+    margin-left: 40%;
+    margin-bottom: 1%;
+}
+
+#yes {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+#no {
+	position: absolute;
+	top: 50%;
+	right: 10%;
+}
